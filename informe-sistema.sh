@@ -17,7 +17,7 @@
 set -euo pipefail
 
 # Atrapar señales de interrupción (ej. Ctrl+C) y terminación
-trap 'echo "Script interrumpido por el usuario"; exit 1' INT TERM
+trap 'echo " Script interrumpido por el usuario"; exit 1' INT TERM
 
 ###############################################################################
 # Funciones de ayuda
